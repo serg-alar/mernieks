@@ -1,7 +1,6 @@
-#logo {
-  margin-left: 100px;
-  margin-top: 26px;
-
+#body {
+  height: 4135px;
+  width: 1402px;
 }
 
 #header {
@@ -10,9 +9,10 @@
   width: auto;
 }
 
-#body {
-  height: 4135px;
-  width: 1402px;
+#logo {
+  margin-left: 100px;
+  margin-top: 26px;
+
 }
 
 #nav {
@@ -83,5 +83,3 @@ a:hover {
 td {
   width: 400px;
 }
-
-tes
