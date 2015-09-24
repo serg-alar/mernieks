@@ -71,10 +71,19 @@ a:hover {
   margin-top: 256px;
   margin-left: 183px;
   position: absolute;
-  text-align: center;
-  font-size: 30px;
-  background-color: #38332F;
-  color: #FAF1C8;
+  background-color: #000000;
+  opacity: 0.5;
+}
+
+.section-1-p-1 {
+  text-align: left;
+  position: absolute;
+  margin-left: 26px;
+  margin-top: 0px;
+  font-size: 44px;
+  color: #F5F2EB;
+  font-family: "Open Sans"
+  /* OPACITY how can I set-up, not to propagate */
 }
 
 #section-1-div-2 {
@@ -83,38 +92,95 @@ a:hover {
   position: absolute;
   width: 408px;
   height: 100px;
-  background-color: black;
+  background-color: #000000;
+  opacity: 0.5;
+}
+
+.section-1-p-2 {
   font-size: 24px;
-  text-align: left;
+  font-family: "Open Sans";
   color: #FFFFDC;
-  background-color: #584632;
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  margin-left: 26px;
+  margin-top: 11px;
+  width: inherit;
 }
 
 .arrow-left {
   position: absolute;
   margin-left: 101px;
-  margin-top: 255px;
-  font-size: 100px;
-  color: #847B6E;
+  margin-top: 286px;
 }
 
 .arrow-right {
   position: absolute;
   margin-left: 1275px;
-  margin-top: 255px;
-  font-size: 100px;
-  color: #847B6E;
+  margin-top: 286px;
 }
 
-#circle {
-    width: 50px;
-    height: 50px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px;
-    z-index: 200;
-    color: red;
+#left-circle {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #C2B081; /* Stroke Border */
+  border-radius: 50%;
+  background-color: #CEBB89;
+  opacity: 0.6;
+
+  /* How to reveal this through Photoshop */
+  box-shadow: -0.707px 0.707px 1px 0px rgba(15, 15, 15, 0.09);
+
+  position: absolute;
+  left: 669px;
+  top: 661px;
+  width: 13px;
+  height: 12px;
 }
+
+#middle-circle {
+  border-radius: 50%;
+  background-color: rgb(206, 187, 137);
+
+  box-shadow: -0.707px 0.707px 1px 0px rgba(15, 15, 15, 0.09);
+
+  position: absolute;
+  left: 693px;
+  top: 661px;
+  width: 15px;
+  height: 14px;
+}
+
+#middle-fill {
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  opacity: 0.33;
+  position: absolute;
+
+  left: 695px;
+  top: 663px;
+  width: 11px;
+  height: 10px;
+}
+
+#right-circle {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #C2B081; /* Stroke Border */
+  border-radius: 50%;
+  background-color: #CEBB89;
+  opacity: 0.6;
+
+  /* How to reveal this through Photoshop */
+  box-shadow: -0.707px 0.707px 1px 0px rgba(15, 15, 15, 0.09);
+
+  position: absolute;
+  left: 717px;
+  top: 661px;
+  width: 13px;
+  height: 12px;
+}
+
 
 
 
