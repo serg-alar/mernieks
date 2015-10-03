@@ -182,11 +182,38 @@ a:hover {
 }
 
 
+                    /* Section Pakalpojumi */
 
+#pakalpojumi {
+  width: 1402px;
+  height: 3723px;
+}
 
+#test {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
 
+.pakalpojumi {
+  color: #95782D;
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  left: 603px;
+  top: 707px;
+  font-family: "Open Sans";
+}
 
-
+.dotted-line {
+  border-width: 1px;
+  border-color: #63501E;
+  border-style: dotted;
+  position: absolute;
+  height: 0px;
+  left: 101px;
+  top: 799px;
+  width: 1195px;
+}
 
 
 td {
