@@ -1,6 +1,9 @@
 #body {
   height: 4135px;
   width: 1402px;
+  padding-left: 102px;
+  padding-right: 102px;
+  border: 2px solid black;
 }
 
 #header { /* Main header of the page */
@@ -189,7 +192,7 @@ a:hover {
   height: 3723px;
 }
 
-#test {
+#section-header {
   padding-top: 56px;
   padding-bottom: 56px;
 }
@@ -210,10 +213,28 @@ a:hover {
   border-style: dotted;
   position: absolute;
   height: 0px;
-  left: 101px;
-  top: 799px;
-  width: 1195px;
+  left: 111px;
+  top: 805px;
+  width: 1402px;
 }
+
+#main-content {
+  padding-top: 50px;
+}
+
+.leftContent {
+  float: left;
+
+}
+
+.centerContent {
+  float: left;
+}
+
+.rightContent {
+  float: left;
+}
+
 
 
 td {
