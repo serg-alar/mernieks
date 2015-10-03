@@ -3,35 +3,32 @@
   width: 1402px;
 }
 
-#header { /* Main header of the page */
+#header {
   background-color: #423D32;
   height: 94px;
   width: auto;
 }
 
-#logo { /* Logo for Mernieks Ventspils */
+#logo {
   margin-left: 100px;
   margin-top: 26px;
+
 }
 
-#navigation {
+#nav {
   float: right;
   height: 45px;
   margin-top: 26px;
   display: block;
   width: 670px;
+
 }
 
-ul {
-  list-style-type: none;
-}
-
-a {
-  width: 60px;
-}
-
-li {
-  display: inline;
+#links {
+  margin-top: 16px;
+  margin-right: 104px;
+  font-size: 21px;
+  font-family: open_sans;
 }
 
 a:link {
@@ -49,16 +46,6 @@ a:hover {
   width: 120px;
 }
 
-#vertical-line {
-  height: 20px;
-  left: 20px;
-  clear: both;
-  height: 1px;
-}
-
-
-                              /* Section Sakums */
-
 #sakums {
   height: 595px;
   width: 1402px;
@@ -67,127 +54,31 @@ a:hover {
 
 #section-1-div-1 {
   width: 268px;
-  height: 72px;
-  margin-top: 256px;
+  height: 72;
+  background-color: red;
+  border-style: solid;
+  font-size: 20px;
+  margin-top: 350px;
   margin-left: 183px;
   position: absolute;
-  background-color: #000000;
-  opacity: 0.5;
 }
 
-.section-1-p-1 {
-  text-align: left;
-  position: absolute;
-  margin-left: 26px;
-  margin-top: 0px;
+#section-1-paragraph-1 {
   font-size: 44px;
-  color: #F5F2EB;
-  font-family: "Open Sans"
-  /* OPACITY how can I set-up, not to propagate */
 }
 
 #section-1-div-2 {
-  margin-top: 352px;
+  margin-top: 492px;
   margin-left: 183px;
   position: absolute;
   width: 408px;
   height: 100px;
-  background-color: #000000;
-  opacity: 0.5;
+  border-style: solid;
 }
 
-.section-1-p-2 {
+#section-1-paragraph-2 {
   font-size: 24px;
-  font-family: "Open Sans";
-  color: #FFFFDC;
-  line-height: 1.5;
-  text-align: left;
-  position: absolute;
-  margin-left: 26px;
-  margin-top: 11px;
-  width: inherit;
 }
-
-.arrow-left {
-  position: absolute;
-  margin-left: 101px;
-  margin-top: 286px;
-}
-
-.arrow-right {
-  position: absolute;
-  margin-left: 1275px;
-  margin-top: 286px;
-}
-
-#left-circle {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #C2B081; /* Stroke Border */
-  border-radius: 50%;
-  background-color: #CEBB89;
-  opacity: 0.6;
-
-  /* How to reveal this through Photoshop */
-  box-shadow: -0.707px 0.707px 1px 0px rgba(15, 15, 15, 0.09);
-
-  position: absolute;
-  left: 669px;
-  top: 661px;
-  width: 13px;
-  height: 12px;
-}
-
-#middle-circle {
-  border-radius: 50%;
-  background-color: rgb(206, 187, 137);
-
-  box-shadow: -0.707px 0.707px 1px 0px rgba(15, 15, 15, 0.09);
-
-  position: absolute;
-  left: 693px;
-  top: 661px;
-  width: 15px;
-  height: 14px;
-}
-
-#middle-fill {
-  border-radius: 50%;
-  background-color: #FFFFFF;
-  opacity: 0.33;
-  position: absolute;
-
-  left: 695px;
-  top: 663px;
-  width: 11px;
-  height: 10px;
-}
-
-#right-circle {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #C2B081; /* Stroke Border */
-  border-radius: 50%;
-  background-color: #CEBB89;
-  opacity: 0.6;
-
-  /* How to reveal this through Photoshop */
-  box-shadow: -0.707px 0.707px 1px 0px rgba(15, 15, 15, 0.09);
-
-  position: absolute;
-  left: 717px;
-  top: 661px;
-  width: 13px;
-  height: 12px;
-}
-
-
-
-
-
-
-
-
 
 td {
   width: 400px;
