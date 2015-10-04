@@ -193,7 +193,6 @@ a:hover {
 #section-header {
   padding-top: 56px;
   padding-bottom: 56px;
-  border: 1px solid yellow;
 }
 
 .pakalpojumi {
@@ -277,7 +276,6 @@ a:hover {
 
 .list {
   padding-left: 34px;
-  border: 1px solid blue;
   margin-top: -20px;
 }
 
