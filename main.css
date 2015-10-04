@@ -210,9 +210,8 @@ a:hover {
   border-width: 1px;
   border-color: #63501E;
   border-style: dotted;
-  position: absolute;
   height: 0px;
-  left: 111px;
+  margin-left: 100px;
   top: 805px;
   width: 1200px;
 }
@@ -224,7 +223,7 @@ a:hover {
   line-height: 1.5;
   height: 598px;
   margin-left: 0px;
-  border: 1px solid red;
+
 }
 
 .leftContent {
@@ -279,15 +278,78 @@ a:hover {
   margin-top: -20px;
 }
 
+.izcenojumi {
+  color: #95782D;
+  font-size: 30px;
+  font-family: "Open Sans";
+  width: 1400px;
+  text-align: center;
+}
 
+#pakalpojumu-izcenojumi {
+  border: 1px solid red;
+  height: 517px;
+  width: 1200px;
+  margin-left: 100px;
+  line-height: 1.5;
+  padding-top: 40px;
+}
 
+#topografiska-informacija {
+  float: left;
+  width: 600px;
+  height: 400px;
+}
 
+#izpilddokumentacija {
+  float: left;
+  width: 600px;
+  height: 400px;
+}
 
+.izcenojumi-paragraph {
+  color: #473A15;
+  font-size: 18px;
+  font-family: "Open Sans";
+}
 
+.td-pakalpojums {
+  font-size: 14px;
+  padding-left: 13px;
+  font-family: "Open Sans Semibold";
+  color: #473A15;
+}
 
+.td-eur {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Open Sans Semibold";
+}
 
+.td-right {
+  text-align: center;
+  /*padding-left: 20px;
+  padding-right: 20px;*/
+  width: 84px;
+  font-family: "Open Sans Semibold";
+  color: #473A15;
+}
 
+.td-left {
+  font-size: 14px;
+  text-align: left;
+  width: 439px;
+  padding-left: 13px;
+  font-family: "Open Sans Regular";
+  font-style: normal;
+  color: #473A15;
+}
 
 td {
-  width: 400px;
+  height: 45px;
+  border: 1px solid green;
+}
+
+.test {
+  width: 541px;
 }
