@@ -287,7 +287,7 @@ a:hover {
 }
 
 #pakalpojumu-izcenojumi {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   height: 517px;
   width: 1200px;
   margin-left: 100px;
@@ -296,14 +296,16 @@ a:hover {
 
 #topografiska-informacija {
   float: left;
-  width: 600px;
+  width: 568px;
   height: 400px;
+  padding-right: 32px; /*Should be 32px*/
 }
 
 #izpilddokumentacija {
   float: left;
-  width: 600px;
+  width: 568px;
   height: 400px;
+  padding-left: 32px; /*Should be 32px*/
 }
 
 .izcenojumi-paragraph {
@@ -317,18 +319,17 @@ a:hover {
   padding-left: 13px;
   font-family: "Open Sans Semibold";
   color: #473A15;
+  width: 462px;
 }
 
 .td-eur {
-  padding-left: 20px;
-  padding-right: 20px;
   font-family: "Open Sans Semibold";
+  width: 84px;
+  text-align: center;
 }
 
 .td-right {
   text-align: center;
-  /*padding-left: 20px;
-  padding-right: 20px;*/
   width: 84px;
   font-family: "Open Sans Semibold";
   color: #473A15;
