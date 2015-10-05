@@ -313,6 +313,12 @@ a:hover {
   font-family: "Open Sans";
 }
 
+.td-line {
+  background-color: rgb(223, 217, 207);
+  width: 568px;
+  height: 1px;
+}
+
 .td-pakalpojums {
   font-size: 14px;
   padding-left: 13px;
@@ -338,7 +344,7 @@ a:hover {
 .td-left {
   font-size: 14px;
   text-align: left;
-  width: 439px;
+  width: 462px;
   padding-left: 13px;
   font-family: "Open Sans Regular";
   font-style: normal;
@@ -350,6 +356,15 @@ td {
   border: 1px solid green;
 }
 
-.test {
-  width: 541px;
+#test-1 {
+  width: 552px;
+  padding-left: 13px;
+  font-size: 14px;
+  font-family: "Open Sans Italic";
+  color: #473A15;
+}
+
+#test-2 {
+  width: 552px;
+  padding-left: 13px;
 }
