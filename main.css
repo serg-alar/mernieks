@@ -292,7 +292,6 @@ a:hover {
   width: 1200px;
   margin-left: 100px;
   line-height: 1.5;
-  padding-top: 40px;
 }
 
 #topografiska-informacija {
@@ -311,12 +310,6 @@ a:hover {
   color: #473A15;
   font-size: 18px;
   font-family: "Open Sans";
-}
-
-.td-line {
-  background-color: rgb(223, 217, 207);
-  width: 568px;
-  height: 1px;
 }
 
 .td-pakalpojums {
@@ -347,24 +340,55 @@ a:hover {
   width: 462px;
   padding-left: 13px;
   font-family: "Open Sans Regular";
-  font-style: normal;
+  color: #473A15;
+}
+
+#open-sans-light {
+  font-family: "Open Sans Light";
+  margin-top: 0px;
+  font-size: 14px;
   color: #473A15;
 }
 
 td {
   height: 45px;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
 }
 
-#test-1 {
+tr:nth-child(even) {
+  background: #F2EBE1;
+}
+
+tr:nth-of-type(2) {
+  border-top: 1px solid;
+  border-top-color: #dfd9cf;
+}
+
+tr {
+  float: left;
+}
+
+#separate-left-td {
   width: 552px;
   padding-left: 13px;
   font-size: 14px;
-  font-family: "Open Sans Italic";
+  font-family: "Open Sans";
+  font-style: italic;
   color: #473A15;
+  border-top: 1px solid;
+  border-top-color: #dfd9cf;
+  float: left;
 }
 
-#test-2 {
+#separate-right-td {
   width: 552px;
   padding-left: 13px;
+  font-size: 14px;
+  font-family: "Open Sans Semibold";
+  color: #473A15;
+  background-color: #F2EBE1;
+  border-top: 1px solid;
+  border-top-color: #dfd9cf;
+  height: 72px;
+  vertical-align: middle;
 }
